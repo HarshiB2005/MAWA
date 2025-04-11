@@ -4,7 +4,7 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4832/workspace/MAWA-CICD/target/MAWA.war"
+        src: "/var/snap/jenkins/4844/workspace/MAWA-CICD/target/MAWA.war"
         dest: "/opt/tomcat/webapps/MAWA.war"
         remote_src: no
 
